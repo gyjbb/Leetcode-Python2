@@ -12,3 +12,16 @@ Can use **double pointers** to  solve the problem. A left one and a right one, t
 res = [float('inf')] * len(nums) # This is a good way to define a list with desired length to store the final result. 
 
 <img src="https://github.com/gyjbb/Leetcode-Python2/blob/main/Screen%20Shot%202023-05-10%20at%203.35.08%20PM.png" width="600" height="400">
+
+## 209. Minimum Size Subarray Sum
+[Leetcode link](https://leetcode.com/problems/minimum-size-subarray-sum/) \
+[Video link](https://www.bilibili.com/video/BV1tZ4y1q7XE) \
+[Reading link](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0209.%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) \
+This is about using **sliding window** to solve question. When all items before the end pointer euqal to or larger than the target, then adjusting the start pointer to narrow the window. record the minimum lenth. Then move to next end point.
+
+
+
+
+
+#### 907.
+#### 76.
