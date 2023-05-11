@@ -17,7 +17,7 @@ res = [float('inf')] * len(nums) # This is a good way to define a list with desi
 [Leetcode link](https://leetcode.com/problems/minimum-size-subarray-sum/) \
 [Video link](https://www.bilibili.com/video/BV1tZ4y1q7XE) \
 [Reading link](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0209.%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) \
-This is about using **sliding window**. When the sum of all items before the end pointer euqal to or larger than the target, adjust the start pointer to narrow the window. record the window lenth. Then move to next end point.
+This is about using **sliding window**. When the sum of all items before the end pointer euqal to or larger than the target, adjust the start pointer to narrow the window. Record the current smallest window lenth. Then move to next end point.
 
 <img src="https://github.com/gyjbb/Leetcode-Python2/blob/main/Screen%20Shot%202023-05-10%20at%204.32.31%20PM.png" width="700" height="400">
 
@@ -27,11 +27,11 @@ This is about using **sliding window**. When the sum of all items before the end
 
 ## 59. Spiral Matrix II
 [Video link](https://www.bilibili.com/video/BV1SL4y1N7mV/?spm_id_from=333.788&vd_source=63f26efad0d35bcbb0de794512ac21f3) \
-Follow the [ , ) rule, then define the start x and start y, which will change every time in the loop.\
+Follow the [ , ) boundary rule, then define the start x and start y, which will change every time in the loop.\
 Also, define an offset, which will decrease by 1 in every loop. \
-And use count to record the number increase.\
+And use count to record the increase of number.\
 (startx, starty)  (i,j)\
-After each full loop, the (startx, starty) will add 1, and offset will add 1.
+After each four-direction loop, the (startx, starty) will add 1, and offset will add 1.
 
 <img src="https://github.com/gyjbb/Leetcode-Python2/blob/main/Screen%20Shot%202023-05-10%20at%205.38.52%20PM.png" width="700" height="600">
 
