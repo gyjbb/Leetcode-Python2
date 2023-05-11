@@ -33,9 +33,7 @@ And use count to record the number increase.\
 (startx, starty)  (i,j)\
 After each full loop, the (startx, starty) will add 1, and offset will add 1.
 
-
-
-
+<img src="https://github.com/gyjbb/Leetcode-Python2/blob/main/Screen%20Shot%202023-05-10%20at%205.38.52%20PM.png" width="700" height="600">
 
 
 
